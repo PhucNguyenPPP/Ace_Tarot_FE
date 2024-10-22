@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import styles from './Chat.module.scss';
+import styles from './chatlist.module.scss';
 import { CircularProgress } from '@mui/material';
 import useAuth from '../../../hooks/useAuth';
 import { GetAllChatUsers, GetMessage, SendMessage } from '../../../api/ChatApi';
