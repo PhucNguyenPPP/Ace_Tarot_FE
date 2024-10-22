@@ -32,6 +32,7 @@ function TarotReaderDetail() {
 
         if (!user.isVerified) {
             setOpenDialog(true);
+            return;
         }
 
         navigate('/booking-step', { state: { userId } });
