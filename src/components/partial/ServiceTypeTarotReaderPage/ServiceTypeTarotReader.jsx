@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, IconButton, CircularProgress, Button } from '@mui/material';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import styles from './ServiceTypeTarotReader.module.scss'; // Importing the SCSS module
+import styles from './servicetypetarotreader.module.scss'; // Importing the SCSS module
 import useAuth from '../../../hooks/useAuth';
 import { GetServiceTypeOfSystem, GetServiceTypeOfTarotReader, RegisterServiceByTarotReader, RemoveServiceByTarotReader } from '../../../api/ServiceApi';
 import { toast } from 'react-toastify';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, CircularProgress, Avatar, Box, Typography, IconButton, Modal, TextField, FormControl, RadioGroup, FormControlLabel, InputLabel, Radio } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
-import styles from './PageManagementTarotReader.module.scss'; // Import the SCSS module
+import styles from './pagemanagementtarotreader.module.scss'; // Import the SCSS module
 import useAuth from '../../../hooks/useAuth';
 import { useEffect } from 'react';
 import { GetTarotReaderDetail } from '../../../api/TarotReaderApi';
