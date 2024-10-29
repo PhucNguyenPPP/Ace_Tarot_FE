@@ -28,6 +28,7 @@ import {
 } from '../../../api/DashboardApi';
 import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import AssignmentIcon from '@mui/icons-material/Assignment';
+import MoneyIcon from '@mui/icons-material/Money';
 
 // Register necessary Chart.js components
 ChartJS.register(
@@ -291,7 +292,7 @@ function DashboardAdmin() {
                     <Card>
                         <CardContent>
                             <Typography variant="h6" gutterBottom>
-                                <AttachMoneyIcon /> Lợi Nhuận
+                                <MoneyIcon /> Phí Hoa Hồng (30% doanh thu)
                             </Typography>
                             <Typography variant="h4">{formatPriceVND(profit)}</Typography>
                         </CardContent>
